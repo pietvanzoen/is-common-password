@@ -10,8 +10,8 @@ before_script:
   - yarn lint
   - docker pull $IMAGE_TAG
 script:
+  - yarn test
   - docker build -t $IMAGE_TAG .
-
 
 deploy:
   provider: script

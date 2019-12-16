@@ -300,3 +300,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/git,jetbrains+all,linux,macos,node,sublimetext,windows
 
 /build
+/lib/common-passwords.txt
